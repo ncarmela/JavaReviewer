@@ -38,6 +38,13 @@ public class aaUserInputExample {
         scanner.close();
 
 
+        // String ➜ int	        Integer.parseInt(String)
+        // String ➜ float	    Float.parseFloat(String)
+        // String ➜ double	    Double.parseDouble(String)
+        // float ➜ String	    Float.toString(float) or String.valueOf(float)
+        // double ➜ String	    Double.toString(double) or String.valueOf(double)
+        // Any primitive ➜ String	String.valueOf(value)
+
 
 
     }
