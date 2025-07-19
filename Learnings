@@ -1,0 +1,98 @@
+UserInput.java
+- Learned how to use scanner
+
+=================================================================================
+
+Arithmetic.java
+- % modulus operator
+- conversion from Strings to non-primitive vice versa
+        
+        // String ➜ int	        Integer.parseInt(String)
+        // String ➜ float	    Float.parseFloat(String)
+        // String ➜ double	    Double.parseDouble(String)
+        // float ➜ String	    Float.toString(float) or String.valueOf(float)
+        // double ➜ String	    Double.toString(double) or String.valueOf(double)
+        // Any primitive ➜ String	String.valueOf(value)
+
+=================================================================================
+
+RandomNumbers.java
+- import java.util.Random;  
+- Random random = new Random(bound or kung hanggang saan irarandom na number);
+
+=================================================================================
+
+PrintF.java
+- printf = is a method para madali iinsert ung data hindi na iplus plus ba
+- % eto symbol panimula
+- [flags example + or - or , ( para maenclosed negative, space naman para nakatab mga positive and align ]
+- [width 0 padding exmaple 04d para 4 digits, pag no 0 padding ex 4d wala 0 pero may padding]
+- [.precision para maround off for price .3 .2 ganyan][specifier-character]
+
+        // String name = "Alice"; //%s
+        // char grade = 'A'; //%c
+        // int age = 20; //%d
+        // double gpa = 3.75; //%f
+        // boolean isGraduated = true; //%b
+
+        // System.out.printf("Hello %s,\n",name);
+        // System.out.printf("Your grade is %c.\n", grade);
+        // System.out.printf("GPA is %.2f, Gradutated: %b", gpa, isGraduated);
+        // System.out.printf("The amount after %d years is: %,.2f\n", years, amount);
+
+=================================================================================
+
+NestedIFStatements.java
+- if statement sa loob ng if statements
+- pag if statement need ng RETURN;
+- pag multiple if-statement naman hindi na need kasi ung last if serves as return already
+
+=================================================================================
+
+StringMethods.java
+- ibat ibang klase ng string methods. pang string lang
+- example name.length()
+- nalalaman computer na method ang code kapag may ()
+
+=================================================================================
+
+Substring.java
+- kung mayroong .concat() para pagsamahin meron ding panghiwalay
+- .substring(startIndex, endIndex) - extracts a substring from the string
+- to remember '+1', parameters or arguments ang nasa loob ng () .......  example (email.lastIndexOf(".") + 1, email.length())
+
+=================================================================================
+
+WeightConverter.java
+- learned na need magdeclare value sa variable kung may variable na asa loob ng if statements. kasi wat ip di mag tuloy if statement eh di wala value ung variable, masisira yan siya haha
+
+=================================================================================
+
+TernaryOperator.java
+- shorter version ng if-else 
+- (parameter condition) ? valueIfTrue : valueIfFalse
+
+=================================================================================
+
+EnhancedSwitches.java
+- This expression can be of type byte, short, int, char, String. BAWAL BOOLEAN, DOUBLE, CONDITIONS AND COMPARISONS
+- need lagi ng 'break;' sa dulo
+- bawal "" only '' 
+
+
+EXTRA
+
+sa if else statement learning:
+
+        //Double.isNaN(x); // ✅ true
+        //x.isNaN()     // ❌ Error: cannot invoke isNaN() on primitive double
+=================================================================================
+
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+

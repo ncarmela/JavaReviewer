@@ -17,15 +17,17 @@ public class ahWeightConverter {
                         "3 = Grams to Ounces\n" +
                         "4 = Ounces to Grams\n");
         choice = scanner.nextInt();
-
-        System.out.print("Enter the weight to convert: ");
-        weight = scanner.nextDouble();
-
+        
         if(choice < 1 || choice > 4) {
             System.out.println("Invalid choice. Please select a valid conversion option.");
             scanner.close();
             return;
         }
+
+        System.out.print("Enter the weight to convert: ");
+        weight = scanner.nextDouble();
+
+
 
         if (weight <= 0 || Double.isNaN(weight)) {
             System.out.println("Weight cannot be negative. Please enter a valid weight.");
