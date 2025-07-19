@@ -8,7 +8,7 @@ public class ahWeightConverter2 {
         // Weight conversion program
         String inputChoice;
         String inputWeight; 
-        int choice;
+        int choice=0;
         double weight, convertedWeight;
 
         System.out.println("Welcome to the Weight Converter!");
@@ -21,14 +21,22 @@ public class ahWeightConverter2 {
                          "Enter your choice (1-4): ");
 
         inputChoice = scanner.nextLine();
+        
 
         if (inputChoice.isEmpty()) {
             System.out.println("❌ You did not enter a choice.");
             scanner.close();
-            return;
-        }
+        } else {
+            
+            choice = Integer.parseInt(inputChoice);
+            
+            if (choice < 1 || choice > 4) {
+                System.out.println("❌ Invalid choice. Please select a valid conversion option.");
+                scanner.close();
+                return;
+            }
 
-        choice = Integer.parseInt(inputChoice);
+        }
 
         System.out.print("Enter the weight to convert: ");
         inputWeight = scanner.nextLine();
@@ -37,10 +45,16 @@ public class ahWeightConverter2 {
             System.out.println("❌ You did not enter a weight.");
             scanner.close();
             return;
+        } else{
+            weight = Double.parseDouble(inputWeight);
+            if (weight <= 0 || Double.isNaN(weight)) {
+                System.out.println("❌ Weight cannot be negative or NaN. Please enter a valid weight.");
+                scanner.close();
+                return;
+            }
         }
 
-        weight = Double.parseDouble(inputWeight);
-
+        
         if (choice == 1) {
             convertedWeight = weight * 2.20462;
             System.out.printf("%.2f Kilograms is equal to %.2f Pounds\n", weight, convertedWeight);
