@@ -53,6 +53,38 @@ StringMethods.java
 - ibat ibang klase ng string methods. pang string lang
 - example name.length()
 - nalalaman computer na method ang code kapag may ()
+- sa pag split:
+       // String[] splittedStrings = name.split(" ");
+
+       // System.out.println(splittedStrings[0]); // Output: nina kasi mahahati sa space
+       // System.out.println(splittedStrings[1]); // Output: nambio
+
+
+EXTRA       
+- 2 loop options for printing Strings inside a String[] 
+
+      option 1:
+            int i;
+
+            for(i=0; i < list.length; i++) {
+                System.out.println(list[i]);
+            }
+        
+        option 2 (shorter version):    
+
+            //'fruit' ay temporary variable, so kada run ay magiiba ang value ni fruit
+            // ':' for each fruit in list
+            // 'list' is The array (or collection) you're looping through 
+            for (String fruit : list) {
+                System.out.println(fruit);
+            }
+
+- pag replace ng string sa array:
+            // pag magrereplace ng string array di pwede .replace pang String lang un
+
+            String fruits = "apple,banana,orange";
+            String[] list = fruits.split(","); // Splitting the string into an array and replacing the first element with "kiwi"
+    this   -->   list[0] = "kiwi";  
 
 =================================================================================
 
@@ -81,11 +113,94 @@ EnhancedSwitches.java
 
 
 EXTRA
-
 sa if else statement learning:
 
         //Double.isNaN(x); // ✅ true
         //x.isNaN()     // ❌ Error: cannot invoke isNaN() on primitive double
+
+=================================================================================
+
+LogicalOperator.java
+        // && = AND
+        // || = OR
+        // ! = NOT
+- by group ang accept, deny
+
+=================================================================================
+
+whileLoop.java
+- a loop will run is the condition is true, and will stop once the condition is false
+- bawal magwhile loop kung walang magpapaiba ng value sa condition, kasi magkakaroon ng infinite loop
+- while ay gagana hanggat di siya true
+
+- do while - mauuna do 
+
+    // while loop- You want to check the condition before running any code
+    // do while - You want the loop to run at least once before checking the condition
+
+- gamitin mo while loop kung ayaw mo na irun ung loop, example nag false na condition bago pa ung loop statement. di niya na irurun ung loop
+
+- gamitin mo do while if want mo pa din mag run loop kahit isang beses lang
+
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
+
+=================================================================================
+
+=================================================================================
+
+=================================================================================
+
 =================================================================================
 
 
