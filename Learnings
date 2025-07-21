@@ -129,23 +129,37 @@ LogicalOperator.java
 =================================================================================
 
 whileLoop.java
-- a loop will run is the condition is true, and will stop once the condition is false
+
+- a loop will run is the condition is true, and will only stop once the condition is false
 - bawal magwhile loop kung walang magpapaiba ng value sa condition, kasi magkakaroon ng infinite loop
 - while ay gagana hanggat di siya true
 
 - do while - mauuna do 
 
-    // while loop- You want to check the condition before running any code
-    // do while - You want the loop to run at least once before checking the condition
+    // *while loop*- You want to check the condition before running any code
+    // *do while* - You want the loop to run at least once before checking the condition
 
-- gamitin mo while loop kung ayaw mo na irun ung loop, example nag false na condition bago pa ung loop statement. di niya na irurun ung loop
+- gamitin mo *while loop* kung ayaw mo na irun ung loop, example nag false na condition bago pa ung loop statement. di niya na irurun ung loop
 
-- gamitin mo do while if want mo pa din mag run loop kahit isang beses lang
+- gamitin mo *do while* if want mo pa din mag run loop kahit isang beses lang
 
+
+=================================================================================
+
+zaNumberGuessingGame.java
+
+- *break* statement immediately exits the loop, no matter what the condition is.
 
 =================================================================================
 
-=================================================================================
+sbExerciseForLoopAndStringArray.java
+
+- "new *Class*" word is used to store new values
+- String[] fruits = new String[5]; 5 is kung ilan ipapasok or new string sa array
+
+- what happens here:
+        // fruits[countie] = scanner.nextLine(); ---> countie is int value, kada scan ay mag mapasok sa array ng current value ni countie
+        // countie++; ---> mag ++ para makapagscan ulit bago with new index
 
 =================================================================================
 
