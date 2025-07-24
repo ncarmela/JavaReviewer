@@ -130,6 +130,9 @@ LogicalOperator.java
 
 whileLoop.java
 
+- while(condition) You don’t know exactly how many times the loop should run.
+- *The loop depends on something that changes inside it*
+
 - a loop will run is the condition is true, and will only stop once the condition is false
 - bawal magwhile loop kung walang magpapaiba ng value sa condition, kasi magkakaroon ng infinite loop
 - while ay gagana hanggat di siya true
@@ -163,10 +166,32 @@ sbExerciseForLoopAndStringArray.java
 
 =================================================================================
 
+ForLoops.java
+
+- *for loop* = execute some code a CERTAIN amount of time
+        // for(initialization; condition; update)
+
+- pag naman *while loop* You don’t know exactly how many times the loop should run.
+- Thread.sleep(500) ilang mins after mag loop
 
 =================================================================================
 
+BreakContinue
+
+- *break* = break out of a loop (stop)
+- *continue* = skip current iteration of a loop (skip) 
+        // example nag ==5 iiskip niya ung loop and then continue ulit sa susunod
+
+learning
+- Modulo is remainder (kumbaga ano ung sobra before mahit ung ididivide) like 5/2, instead of 2.5 -> 5 ang sagot is 1 kasi 2+2 = 4 + 1 = 5
 =================================================================================
+
+NestedLoop
+
+- loop inside a loop
+
+learning
+
 
 =================================================================================
 
