@@ -211,11 +211,17 @@ Methods.java
 
 OverloadedMethods.java
 
-overloaded methods = methods that share the same name,
-                     but different parameters.
-                     signature = name + parameters     
+- overloaded methods = methods that share the same name,
+                       but different parameters.
+                       signature = name + parameters     
 
 =================================================================================
+
+VariableScope.java
+
+- java prefer local scope variable kesa ung asa labas
+- class variables are declared inside of a class, and recognized throughout the class
+- local variable will only be recognized by another method if you will pass the arguments like in the previous *method.java* 
 
 =================================================================================
 
