@@ -195,8 +195,25 @@ learning
 
 =================================================================================
 
+Methods.java
+
+- method = a block of reusable code that is executed when () is called
+      // anything u send a method is known as argument inside the ()
+
+- methods are unfamiliar with other variable outside, so you have to set it up with matching parameters sa loob ng ()
+
+ example : *HBD(name);*    *static void HBD(String name){*
+  // di need magkamukha naming ang need lang same is the data type
+
+- a *return* keyword will return the value once the method ends  
+
 =================================================================================
 
+OverloadedMethods.java
+
+overloaded methods = methods that share the same name,
+                     but different parameters.
+                     signature = name + parameters     
 
 =================================================================================
 
