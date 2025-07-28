@@ -225,6 +225,27 @@ VariableScope.java
 
 =================================================================================
 
+BankingProgram.java
+
+void	Return type	Method returns nothing
+String	Data type/class	Holds text
+double	Primitive type	Holds decimal numbers
+
+- new learning bwuhaha
+
+deposit(balance);
+System.out.printf("Current Balance: $%.2f", balance); // This prints the old balance
+
+kasi gumamit ako method to pass sa main
+
+?? why not updating if sa method may plus naman na?
+
+Answer... di kasi pinass sa balance
+
+make it:
+
+balance = deposit(balance);
+
 =================================================================================
 
 =================================================================================
