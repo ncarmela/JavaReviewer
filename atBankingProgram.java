@@ -45,7 +45,8 @@ public class atBankingProgram {
                     break;
                 case 3:
                     System.out.println("Withdraw");
-
+                    balance = withdraw(balance);
+                    System.out.printf("Current Balance: $%.2f", balance);
                     break;
                 case 4:
                     System.out.println("Exit");
@@ -69,8 +70,32 @@ public class atBankingProgram {
         double amount;
         System.out.print("Enter an amount to deposit:");
         amount = scanner.nextDouble();
+
+        if(amount>-1){
+            return balance = amount + balance;
+        } else{
+            System.out.println("Invalid amount");
+        }
         
         return balance = amount + balance;
+        
+        
+    }
+
+    static double withdraw(double balance){
+        double amount;
+        System.out.print("Enter an amount to withdraw:");
+        amount = scanner.nextDouble();
+
+        while(amount > balance){
+            System.out.print("Not enough balance. Current balance is " + balance);
+            System.out.print("Enter an amount to withdraw:");
+            amount = scanner.nextDouble();
+        }
+        
+        return balance = balance - amount;
+
+        
         
     }
 }
