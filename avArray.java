@@ -13,6 +13,7 @@ public class avArray {
 
         fruit[2] = "Kiwi";
         Arrays.sort(fruit);
+        Arrays.fill(fruit, "snoopy");
 
         for(int i = 0; i < fruit.length; i++){
             // if (0 == i%2){

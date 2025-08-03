@@ -260,6 +260,9 @@ Array.java
 
 - to know if even numbers use *0 == i%2*
 
+- Arrays.sort(fruit); para masort asc
+- Arrays.fill(fruit, "snoopy"); para mafill lahat loob ng array na snoopy
+
 - seperate sa *string*
 
         String fruit = "Apple,Mango,Orange,Lychee,Banana,Grapes";
@@ -285,7 +288,9 @@ kumbaga purpose ni split ay paghiwalyin
   String data = "apple,banana;orange";
   String[] result = data.split("[,;]");
 
+//////////
 
+sumatutal nalaman ko pinagkaiba iba ng mga knakalimutan ko na si concat, substring, at split
 
 
 
