@@ -83,8 +83,10 @@ EXTRA
             // pag magrereplace ng string array di pwede .replace pang String lang un
 
             String fruits = "apple,banana,orange";
-            String[] list = fruits.split(","); // Splitting the string into an array and replacing the first element with "kiwi"
-    this   -->   list[0] = "kiwi";  
+            String[] list = fruits.split(","); // Splitting the string into an array
+            
+            replacing the first element with "kiwi"
+                this   -->   list[0] = "kiwi";  
 
 =================================================================================
 
@@ -253,6 +255,38 @@ RollDiceProgram.java
 - to create multi-line string use """    """
 
 =================================================================================
+
+Array.java
+
+- to know if even numbers use *0 == i%2*
+
+- seperate sa *string*
+
+        String fruit = "Apple,Mango,Orange,Lychee,Banana,Grapes";
+        String[] fruits = fruit.split(",");
+
+- pero pag ARRAY u hab to use ung ", "
+
+- replace sa *string* 
+
+        String sentence = "I love mangoes";
+        String result = sentence.replace("mangoes", "apples");
+
+- replace *array* . pwede din naman .replace pero madiwara
+        fruits[1] = "kiwi"
+
+- to call an array i hae to use Arrays.toString(xxx)
+
+- .split(",") is used in String to Array to break the string into an array using commas as the divider. 
+kumbaga purpose ni split ay paghiwalyin
+
+- More split delimiters
+
+  String data = "apple,banana;orange";
+  String[] result = data.split("[,;]");
+
+
+
 
 
 =================================================================================

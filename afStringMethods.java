@@ -53,7 +53,7 @@ public class afStringMethods {
 
 
         String fruits = "apple,banana,orange";
-        String[] list = fruits.split(","); // Splitting the string into an array and replacing the first element with "kiwi"
+        String[] list = fruits.split(","); // Splitting the string into an array 
         list[0] = "kiwi";  // pag magrereplace ng string array di pwede .replace 
         
         int i;
